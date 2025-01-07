@@ -9,20 +9,73 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
+            line-height: 1.6;
+            color: #333;
         }
         .container {
             max-width: 800px;
             margin: 0 auto;
         }
+        h1, h2 {
+            color: #2c3e50;
+            margin-top: 2em;
+        }
         h1 {
-            color: #333;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .section {
+            margin: 2em 0;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .contact-info {
+            background: #e8f4f8;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 2em;
+        }
+        .featured-project {
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+            margin: 1em 0;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Welcome to the Big Idea Project</h1>
-        <p>This is a simple starting point for our project. More content coming soon!</p>
+        
+        <div class="section">
+            <h2>About Us</h2>
+            <p>We are a team of innovative thinkers dedicated to bringing revolutionary ideas to life. Our platform serves as a hub for creativity, collaboration, and transformation.</p>
+        </div>
+
+        <div class="section">
+            <h2>Our Mission</h2>
+            <p>To foster innovation and creativity by providing a platform where great ideas can flourish. We believe in the power of collaboration and the impact of shared knowledge.</p>
+        </div>
+
+        <div class="section">
+            <h2>Featured Projects</h2>
+            <div class="featured-project">
+                <h3>Project Alpha</h3>
+                <p>An innovative solution for sustainable energy conservation.</p>
+            </div>
+            <div class="featured-project">
+                <h3>Project Beta</h3>
+                <p>Revolutionizing the way we approach urban mobility.</p>
+            </div>
+        </div>
+
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>Email: contact@bigidea.example.com</p>
+            <p>Phone: (555) 123-4567</p>
+            <p>Address: 123 Innovation Street, Tech City, TC 12345</p>
+        </div>
     </div>
 </body>
 </html>
